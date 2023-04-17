@@ -1,7 +1,13 @@
 package org.example;
 
+import test2.ClassAnno;
+import test2.FieldAnno;
+
+@ClassAnno(type = true,name = "test")
 public class Student {
+    @FieldAnno(name="wangwu")
     public String name;
+    @FieldAnno(age=18)
     private int age;
 
     public Student() {
