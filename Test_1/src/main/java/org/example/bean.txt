@@ -1,3 +1,0 @@
-org.example.Student
-org.example.Course
-org.example.Teacher
